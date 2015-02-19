@@ -53,6 +53,12 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="SpecificationTests.cs" />
   </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\..\src\SpecificationPattern\SpecificationPattern.csproj">
+      <Project>{97f7c7c2-7033-4352-94b0-1f28557e48d1}</Project>
+      <Name>SpecificationPattern</Name>
+    </ProjectReference>
+  </ItemGroup>
   <Choose>
     <When Condition="'$(VisualStudioVersion)' == '10.0' And '$(IsCodedUITest)' == 'True'">
       <ItemGroup>
