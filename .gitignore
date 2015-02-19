@@ -1,1 +1,4 @@
-Tests/SpecificationPattern.Tests/obj/Debug/SpecificationPattern.Tests.csproj.FileListAbsolute.txt
+Tests/SpecificationPattern.Tests/obj/
+Tests/SpecificationPattern.Tests/bin/
+src/SpecificationPattern/bin/
+src/SpecificationPattern/obj/
